@@ -2,7 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"Get_sub_watersheds": "01_Virtual_data_setup.ipynb"}
+index = {"Get_sub_watersheds": "00_core.ipynb",
+         "cascade_values": "00_core.ipynb",
+         "colors": "00_core.ipynb"}
 
 modules = ["core.py"]
 
