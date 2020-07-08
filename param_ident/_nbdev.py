@@ -3,7 +3,8 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"Get_sub_watersheds": "00_core.ipynb",
-         "cascade_values": "00_core.ipynb",
+         "cascade_values_async": "00_core.ipynb",
+         "cascade_values_sync": "00_core.ipynb",
          "colors": "00_core.ipynb"}
 
 modules = ["core.py"]

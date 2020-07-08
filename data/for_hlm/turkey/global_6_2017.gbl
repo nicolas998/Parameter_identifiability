@@ -58,7 +58,7 @@ Classic
 
 %.sav files for hydrographs and peak file
 %(0 = save no data, 1 = .sav file, 2 = .dbc file, 3 = all links)
-1 /Users/nicolas/Parameter_identifiability/data/for_hlm/turkey/control_vr6.sav %Hydrographs
+1 /Users/nicolas/Parameter_identifiability/data/for_hlm/turkey/control_vr4.sav %Hydrographs
 3 %Peakflows
 
 %Snapshot information (0 = none, 1 = to .rec file, 2 = to database, 3 = to .h5 file, 4 = to recurrent .h5 file)

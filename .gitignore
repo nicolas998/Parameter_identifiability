@@ -142,6 +142,7 @@ checklink/cookies.txt
 # HLM stuff
 *.dat
 *.sh
+*o3*
 *o4*
 *o5*
 *o6*
