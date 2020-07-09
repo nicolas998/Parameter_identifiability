@@ -5,9 +5,9 @@ names = {'south': {'path': '/Users/nicolas/Parameter_identifiability/data/for_hl
         'turkey':{'path':'/Users/nicolas/Parameter_identifiability/data/for_hlm/turkey/'}} 
 
 name = 'south' #Choose between south and turkey
-setup = '4' #Choose betweeen 4, 5 and 6
+setup = '5' #Choose betweeen 4, 5 and 6
 
-data = am.hlm_dat_process(names[name]['path'] + 'control_vr4.sav')
+data = am.hlm_dat_process(names[name]['path'] + 'control_vr5.sav')
 data.dat_all2pandas(names[name]['path'], 
     '/Users/nicolas/Parameter_identifiability/data/hlm_outputs/'+name+'/',
     start_date='-03-01 01:00',
